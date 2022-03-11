@@ -1,0 +1,10 @@
+.buynow{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: steelblue;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: large;
+    text-decoration: none;
+    border-radius: 20px;
+}
