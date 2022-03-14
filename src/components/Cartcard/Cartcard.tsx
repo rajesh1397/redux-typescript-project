@@ -1,11 +1,10 @@
-import React from "react";
 import { useDispatch } from "react-redux";
 
-// import Product from "../../models/Product";
+import Product from "../../models/Product";
 
 import classes from "./Cartcard.module.css";
 
-function Cartcard({ product }:any) {
+function Cartcard({ product }:{product:Product}) {
   const { id, title, price } = product;
   const dispatch = useDispatch();
   return (

@@ -64,7 +64,7 @@ function Productcard({ id, image, title, price }:Product) {
             className={classes.buynow}
             to="/shop"
           >
-            Add tocart
+            Addtocart
           </Link>
         </CardActions>
       </Card>
