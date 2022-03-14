@@ -16,7 +16,7 @@ function Shop() {
   const API_URL = "https://fakestoreapi.com/products?limit=16";
 
   const [products, setProducts] = useState<Product[]>([]);
-  const [isLoading, setIsloading] = useState(true);
+  const [isLoading, setIsloading] = useState<boolean>(true);
 
   const fetchProducts = async () => {
     const { data } = await Axios.get(API_URL);
